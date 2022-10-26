@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +8,97 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav--edit {
+  display: flex;
+  justify-content: center;
+  height: 55px;
+  background: #F55A5A;
+}
+
+.world--edit {
+  width: 24px;
+  height: 24px;
+  margin-top: 13px;
+}
+
+.nav--text {
+  width: 109px;
+  height: 16px;
+  top: 20px;
+  padding-left: 7px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+}
+
+.cards {
+  display: flex;
+  padding: 10px;
+}
+
+.card--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  font-size: 0.6rem;
+  margin-right: 3em;
+}
+
+.card--image {
+  padding: 10px;
+}
+
+.top--info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.edit--pin {
+  padding: 0px;
+  width: px;
+  margin-left: 8px;
+  margin-top: 12px;
+}
+
+.url--edit {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.location--name {
+  padding: 0px;
+  font-size: 1rem;
+  margin: 0px 0px 0px 10px;
+  margin-top: 10px;
+}
+
+.bottom--title {
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-left: 5px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.5px;
+}
+
+.bottom--description {
+  display: flex;
+  margin-left: 8px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 13px;
+  padding: 0px;
+}
+
+.bottom--dates {
+  padding: 5px;
+  margin-left: 5px;
 }
